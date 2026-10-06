@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kumar Karan Srivastava</title>
+
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: #f5f5f5;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+    }
+
+    .card {
+        background: #fff;
+        width: 90%;
+        max-width: 420px;
+        border-radius: 20px;
+        padding: 20px;
+        box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        text-align: center;
+    }
+
+    .logo {
+        width: 80px;
+        margin-bottom: 10px;
+    }
+
+    h1 {
+        font-size: 22px;
+        margin: 10px 0 5px;
+    }
+
+    h3 {
+        margin: 0;
+        color: #666;
+        font-weight: normal;
+    }
+
+    .section {
+        margin-top: 20px;
+    }
+
+    .btn {
+        display: block;
+        margin: 10px 0;
+        padding: 12px;
+        border-radius: 10px;
+        text-decoration: none;
+        color: #fff;
+        font-weight: bold;
+        transition: 0.3s;
+    }
+
+    .call { background: #28a745; }
+    .whatsapp { background: #25D366; }
+    .email { background: #007bff; }
+    .website { background: #000; }
+
+    .btn:hover {
+        opacity: 0.8;
+    }
+
+    .services {
+        text-align: left;
+        margin-top: 15px;
+    }
+
+    .services li {
+        margin: 5px 0;
+    }
+
+    .address {
+        font-size: 14px;
+        color: #555;
+        margin-top: 10px;
+    }
+
+    .qr {
+        margin-top: 20px;
+    }
+
+    .qr img {
+        width: 120px;
+    }
+
+    /* Desktop view */
+    @media(min-width: 768px) {
+        .card {
+            max-width: 700px;
+            text-align: left;
+            display: flex;
+            gap: 20px;
+        }
+
+        .left, .right {
+            flex: 1;
+        }
+
+        .center {
+            text-align: center;
+        }
+    }
+
+</style>
+</head>
+
+<body>
+
+<div class="card">
+
+    <!-- LEFT -->
+    <div class="left center">
+        <img src="logo.png" class="logo" alt="logo">
+
+        <h1>Kumar Karan Srivastava</h1>
+        <h3>Founder & CEO</h3>
+
+        <div class="section">
+            <a href="tel:+918595633909" class="btn call">Call +91 8595633909</a>
+            <a href="https://wa.me/918595633909" class="btn whatsapp">WhatsApp</a>
+            <a href="mailto:kumarkaransrivastava@newwaygroup.co" class="btn email">Email</a>
+            <a href="http://newwaygroup.co" class="btn website">Website</a>
+        </div>
+    </div>
+
+    <!-- RIGHT -->
+    <div class="right">
+
+        <div class="section">
+            <h3>Key Services</h3>
+            <ul class="services">
+                <li>Inspection</li>
+                <li>Testing</li>
+                <li>Certification</li>
+                <li>Compliance Solutions</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h3>Address</h3>
+            <div class="address">
+                Dharsania, Barabanki,<br>
+                Uttar Pradesh, India 225003
+            </div>
+        </div>
+
+        <div class="qr">
+            <img src="qr.png" alt="QR Code">
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
